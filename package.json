@@ -10,5 +10,8 @@
     "asserts": "^4.0.2",
     "mocha": "^4.0.1",
     "selenium-webdriver": "^3.6.0"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
