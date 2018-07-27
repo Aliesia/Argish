@@ -37,20 +37,20 @@ This project uses ChromeDriver v2.39.*
 - Windows:
 TBD
 - Ubuntu:
-1. Download ChromeDriver: chromedriver_linux64.zip
+	1. Download ChromeDriver: chromedriver_linux64.zip
 [ChromeWebDriver v2.39.* link](https://chromedriver.storage.googleapis.com/index.html?path=2.39/) or in terminal: 
 ```
 wget -N http://chromedriver.storage.googleapis.com/2.39/chromedriver_linux64.zip -P ~/
 ```
-2. Unzip chromedriver_linux64.zip. In terminal: 
+	2. Unzip chromedriver_linux64.zip. In terminal: 
 ```
 unzip ~/chromedriver_linux64.zip -d ~/ rm ~/chromedriver_linux64.zip
 ```
-3. Move Chromedriver to /usr/local/bin/chromedriver In terminal: 
+	3. Move Chromedriver to /usr/local/bin/chromedriver In terminal: 
 ```
 sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
 ```
-4. Add privilages 
+	4. Add privilages 
 ```
 sudo chown root:root /usr/local/bin/chromedriver
 sudo chmod 0755 /usr/local/bin/chromedriver
@@ -60,6 +60,14 @@ sudo chmod 0755 /usr/local/bin/chromedriver
 ```
 npm install
 ```
-
+5. Start project tests.
+run command
+```
+npm test oop_clean_site_test/controllers/AllTestsContoller.js
+```
+or
+```
+node node_modules/mocha/bin/mocha oop_clean_site_test/controllers/AllTestsContoller.js
+```
 ## Project structure description.
 **
