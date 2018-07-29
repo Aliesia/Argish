@@ -37,20 +37,20 @@ This project uses ChromeDriver v2.39.*
 - Windows:
 TBD
 - Ubuntu:
-	a. Download ChromeDriver: chromedriver_linux64.zip
+a. Download ChromeDriver: chromedriver_linux64.zip
 [ChromeWebDriver v2.39.* link](https://chromedriver.storage.googleapis.com/index.html?path=2.39/) or in terminal: 
 ```
 wget -N http://chromedriver.storage.googleapis.com/2.39/chromedriver_linux64.zip -P ~/
 ```
-	b. Unzip chromedriver_linux64.zip. In terminal: 
+b. Unzip chromedriver_linux64.zip. In terminal: 
 ```
 unzip ~/chromedriver_linux64.zip -d ~/ rm ~/chromedriver_linux64.zip
 ```
-	c. Move Chromedriver to /usr/local/bin/chromedriver In terminal: 
+c. Move Chromedriver to /usr/local/bin/chromedriver In terminal: 
 ```
 sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
 ```
-	d. Add privilages 
+d. Add privilages 
 ```
 sudo chown root:root /usr/local/bin/chromedriver
 sudo chmod 0755 /usr/local/bin/chromedriver
