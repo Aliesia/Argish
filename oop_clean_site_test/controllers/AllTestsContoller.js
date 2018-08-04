@@ -22,7 +22,9 @@ describe('All tests scenarios', function () {
         categoryService = new CategoryService(site, driver);
         productService = new ProductService(site, driver);
         configService = new ConfigService(site, driver);
-        driver.get(site).then(_ => configService.disableDebugbar())
+        driver.get(site)
+        .then(_ => configService.disableDebugbar())
+        .then(_ => configService.disableCookies())
 
     });
 

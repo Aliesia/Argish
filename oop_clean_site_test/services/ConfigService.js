@@ -6,7 +6,9 @@ const ConfigService = function (site, driver, animationTimeTimeout = 2000) {
     this.disableDebugbar = function () {
         config.disableDebugbar();
     };
-
+    this.disableCookies = function () {
+        config.disableCookies();
+    };
 };
 
 module.exports = ConfigService;
