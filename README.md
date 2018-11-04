@@ -35,7 +35,7 @@ node -v
 3. Download Chrome WebDriver.
 This project uses ChromeDriver v2.39.*
 - Windows:
-*Install via npm (Or grab the source and node ./install.js)
+* Install via npm (Or grab the source and node ./install.js)
 ```
 npm install chromedriver
 ```
